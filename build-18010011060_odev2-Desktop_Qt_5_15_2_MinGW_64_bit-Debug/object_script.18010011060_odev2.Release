@@ -1,0 +1,10 @@
+release/dersler.o
+release/main.o
+release/mainwindow.o
+release/not.o
+release/ogrenci.o
+release/qrc_Resources.o
+release/moc_dersler.o
+release/moc_mainwindow.o
+release/moc_not.o
+release/moc_ogrenci.o

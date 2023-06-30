@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>564</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnCevap">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cevabı Göster</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>171</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Yakıt Bilgisi</string>
+    </property>
+    <widget class="QRadioButton" name="rdDizel">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>95</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Dizel</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rdBenzin">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>95</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Benzin</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPlainTextEdit" name="txtCevap">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>564</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBilgiler">
+    <property name="title">
+     <string>Araba Bilgileri</string>
+    </property>
+    <addaction name="action1_seviye"/>
+    <addaction name="action2_seviye"/>
+   </widget>
+   <addaction name="menuBilgiler"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action1_seviye">
+   <property name="text">
+    <string>1. seviye</string>
+   </property>
+  </action>
+  <action name="action2_seviye">
+   <property name="text">
+    <string>2. seviye</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

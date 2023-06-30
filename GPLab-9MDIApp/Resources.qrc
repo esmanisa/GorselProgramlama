@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>images/Ac.png</file>
+        <file>images/cascade.png</file>
+        <file>images/connect_icon.jpg</file>
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/disconnect_icon.jpg</file>
+        <file>images/ekle.png</file>
+        <file>images/farkliKaydet.jpg</file>
+        <file>images/geri.png</file>
+        <file>images/ikonlar.qrc</file>
+        <file>images/ileri.png</file>
+        <file>images/Kaydet.jpg</file>
+        <file>images/kopyala.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>images/saveas.png</file>
+        <file>images/sil.png</file>
+        <file>images/tile_horizontal.png</file>
+        <file>images/tile_vertical.png</file>
+        <file>images/yapistir.png</file>
+        <file>images/yeni.png</file>
+    </qresource>
+</RCC>
